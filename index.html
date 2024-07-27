@@ -1,69 +1,248 @@
+
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      lang="en"
+      ng-app="app">
+
+<!--
+
+                  `+dmo`
+                  +NMhyMNs`
+                -dMh-  .yMN:
+               :NMo      /NM+
+              -NM+        :NM/
+             `mMy          oMN`
+        smdyssMM.          `MMsoyhds
+       /MMoshmMMy:        :yMMmhsoMM/
+       dMy    .+dMm+`   +mMd+.    yMd
+       MM+       -hMm- -dMd:       +MM
+       mMo         +MMMMo         +MN
+       sMm`         /MMs          mMs
+       `mMy          sMm`        sMm`
+        -NMs`        `MM/      `sMm.
+         .dMm:        NM+     :mMh.
+           +mMd+.    `MM/  .+dMm/
+            `/dMMmy+:sMMoymMMh/
+               `/shmNMMNmhs/`
+
+
+               WE ARE HIRING!
+  Read more on https://careers.bonfire.com/
+
+
+-->
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>ShadowMcMods</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
-    <link rel="icon" type="image/jpeg" href="/logo.svg">
-    <style>
     
-    .github-button-container {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
     
-    .github-button-container a.btn {
-        color: #000000;
-        border-color: #000000;
-    }
     
-    .github-button-container a.btn:hover {
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    .link {
-        color: #ffffff;
-        text-decoration: none;
-    }
-    
-    .link:hover {
-        color: #cccccc;
-    }
-    </style>
-</head>
+    <style>.async-hide { opacity: 0 !important} </style>
+    <!-- Termly.io keep before any other script so it can be blocked -->
+    <script type="text/javascript" src="https://app.termly.io/resource-blocker/e8725538-91e1-4613-818a-5ce2b8f4d586?autoBlock=on"></script>
+    <!-- End Termly -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://analytics.bonfire.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5CWZ2ZF');</script>
+    <!-- End Google Tag Manager -->
 
-<body>
+    <script>
+        // Intercom integration
+        window.intercomSettings = {
+            app_id: "uz43asnh"
+        };
+        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/uz43asnh';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+
+        window.addEventListener("load", function(event) {
+            // Heap analytics integration
+            window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+            heap.load("1259648123");
+
+            window.dispatchEvent(new Event('thirdPartyLoaded'));
+
+            // Heap identify
+            var userId = sessionStorage.getItem("CurrentUserId");
+
+            if (userId && userId !== "anon") {
+                heap.identify(userId);
+            }
+        });
+    </script>
+
+    <!-- Convert Experiences-->
+    <script type="text/javascript" src="//cdn-4.convertexperiments.com/js/10043218-10044472.js"></script>
+    <!-- End Convert Experiences -->
+
     
-    <div class="github-button-container">
-      <a href="https://discord.gg/HgYX7AcCv4" class="btn btn-default" target="_blank">
-        <i class="fab fa-Discord"></i> Discord
-      </a>
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.bonfire.com/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.bonfire.com/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.bonfire.com/images/logo/favicon-16x16.png">
+    <link rel="manifest" href="https://www.bonfire.com/images/logo/site.webmanifest">
+    <link rel="mask-icon" href="https://www.bonfire.com/images/logo/safari-pinned-tab.svg" color="#f49879">
+    <meta name="apple-mobile-web-app-title" content="Bonfire">
+    <meta name="application-name" content="Bonfire">
+    <meta name="msapplication-TileColor" content="#f49879">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <title>BlueFury | Official Merchandise | Bonfire</title>
+    <meta name="description" content="BlueFury is a business for buyers like you!"/>
+    
+    <link rel="stylesheet"  href="https://www.bonfire.com/css/site-977e5ddf21.css" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    <base href="/" />
+    
+    <link rel="canonical" href="https://www.bonfire.com/store/bluefury/" />
+
+    <meta property="og:url" content="https://www.bonfire.com/store/bluefury/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="BlueFury | Official Merchandise | Bonfire"/>
+    <meta property="og:description" content="BlueFury is a business for buyers like you!"/>
+    <meta property="fb:app_id" content="439741509551800"/>
+    <meta property="og:site_name" content="Bonfire"/>
+    <meta property="og:image" content="https://c.bonfireassets.com/thumb/store/aad41f7a-3503-483b-9600-88832209cd74/50caf871/"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    
+
+    <script src="https://use.typekit.net/dve7bdo.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    
+
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="https://www.bonfire.com/store/bluefury/"/>
+    
+    
+    
+    <meta name="p:domain_verify" content="ed4a7dda225a4770a1e88d9934d4f048"/>
+    <meta name="format-detection" content="telephone=no">
+
+    
+    
+    
+    
+    
+    
+    
+    
+</head>
+<body>
+    <div id="sw-PagePushDown"></div>
+    <div class="sw-BrowserOutdatedMsg" id="old-browser">
+        It looks like your browser is outdated. Please update to the latest version in order to get a better experience.
     </div>
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-            <div class="col">
-                <img src="logo.svg" style="width: 60px;">
-                <h1 style="margin-top: -58px;padding-left: 66px;padding-top: 7px;">&nbsp;ShadowMods</h1>
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="searchInput" placeholder="Search..." style="margin-top: 10px;">
-                </div>
-            </div>
-            <div style="text-align: center;">
-                <h3></h3><a href="" class="btn btn-primary" target="_blank">submit mods</a>
-            </div>
-            <div class="col-md-11 col-lg-12 col-xl-11" id="modContainer">
-                <!-- JavaScript will add mod cards here -->
+    <!-- ENG-1953 Commenting out to add Termly banner
+    <bf-global-popup></bf-global-popup>
+    -->
+    <section>
+    <div ui-view="layout"></div>
+</section>
+
+    <script type="text/javascript" src="js/site-aae4f93663.min.js"></script>
+    
+    
+    <div>
+        <div><div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://analytics.bonfire.com/ns.html?id=GTM-5CWZ2ZF"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</div></div>
+    </div>
+    <script>
+
+        if (!window.angular) {
+            document.getElementById("old-browser").style.display = "block";
+        } else {
+            var browser = (function (){
+                var ua = navigator.userAgent,tem;
+                var M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+                if (/trident/i.test(M[1])) {
+                    tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+                    return { name:'IE', version:(tem[1]||'') };
+                    }
+                if (M[1] === 'Chrome'){
+                    tem = ua.match(/\bOPR\/(\d+)/);
+                    if (tem!=null) { return { name:'Opera', version:tem[1]}; }
+                    }
+                M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
+                if ((tem=ua.match(/version\/(\d+)/i)) != null) { M.splice(1,1,tem[1]); }
+                return {
+                  name: M[0],
+                  version: M[1]
+                };
+            })();
+
+            var minBrowserVersions = {
+                safari: 6,
+                msie: 12,
+                ie: 12,
+                edge: 10,
+                chrome: 4,
+                firefox: 4,
+                opera: 2
+            };
+
+            var minVersion = minBrowserVersions[browser.name.toLowerCase()];
+
+            if (minVersion > Number(browser.version)) {
+                document.getElementById("old-browser").style.display = "block";
+            }
+
+            window.__bfBrowser = browser;
+        }
+
+        window.__bfSendError = function(data) {
+            if (window.__bfErrorSentCount === undefined) {
+                window.__bfErrorSentCount = 0;
+            } else if (window.__bfErrorSentCount > 20) {
+                return;
+            }
+
+            window.__bfErrorSentCount++;
+
+            window.__bfSendLog(data);
+        };
+
+        window.__bfSendLog = function(data) {
+            var xhttp = new XMLHttpRequest();
+            data.browser = window.__bfBrowser;
+            data.navigator = navigator.userAgent;
+            data.url = window.location.href;
+            xhttp.open("POST", "rest/flog/", true);
+            xhttp.setRequestHeader("Content-Type", "application/json");
+
+            var xsrfCookie = document.cookie.match('(^|;)\\s*XSRF-TOKEN\\s*=\\s*([^;]+)');
+            if (xsrfCookie) {
+                xhttp.setRequestHeader("X-XSRF-TOKEN", xsrfCookie.pop());
+            }
+            xhttp.send(JSON.stringify(data));
+        };
+
+        window.addEventListener("error", function(e) {
+            window.__bfSendError({
+                type: "EXCEPTION",
+                level: "ERROR",
+                message: e.error.message,
+                stacktrace: e.error.stack
+            });
+        });
+    </script>
+    <script type="text/ng-template" id="site-refresh-modal.html">
+        <div class="sw-Modal">
+            <a href="#" class="sw-Modal_BtnClose" aria-label="Close" aria-hidden="true" ng-click="vm.close()"></a>
+            <div class="sw-TextCenter">
+                <h1>Well, this is embarrassing…</h1>
+                <p>It looks like something went wrong on our end. Don’t worry, our engineers are working to quickly resolve the issue.</p>
+                <button class="sw-BtnDefault sw-BtnDefault-primary" ng-click="vm.close()">OK, I got it</button>
             </div>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="app.js"></script>
+    </script>
 </body>
-
 </html>
